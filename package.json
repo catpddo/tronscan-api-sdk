@@ -1,6 +1,6 @@
 {
   "name": "@pddo/tronscan-api-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TronScan API SDK for TypeScript/JavaScript",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
