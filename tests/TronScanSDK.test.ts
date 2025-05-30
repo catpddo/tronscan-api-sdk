@@ -8,7 +8,7 @@ const mockedAxios = vi.mocked(axios);
 
 describe('TronScanSDK', () => {
   let sdk: TronScanSDK;
-  const mockApiKey = '';
+  const mockApiKey = 'test-api-key-123';
 
   beforeEach(() => {
     vi.clearAllMocks();

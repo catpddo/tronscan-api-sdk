@@ -92,12 +92,8 @@ export class TronScanSDK {
    * @returns 响应数据
    */
   private async request<T>(config: AxiosRequestConfig): Promise<T> {
-    try {
-      const response = await this.client.request<T>(config);
-      return response.data;
-    } catch (error) {
-      throw error;
-    }
+    const response = await this.client.request<T>(config);
+    return response.data;
   }
 
   // ===== 账户相关 API =====
